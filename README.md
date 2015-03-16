@@ -1,3 +1,3 @@
 Link
 
-http://topophi.bitbucket.org/index.html
+http://topophi.bitbucket.org
