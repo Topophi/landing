@@ -184,8 +184,7 @@ hr.colored {
     opacity: 0.5;
   }
   .navbar-default.navbar-expanded,
-  .navbar-inverse.navbar-expanded {
-    background: transparent;
+  .
     border: none;
   }
 }
@@ -438,7 +437,7 @@ aside.cta-quote span.quote {
 }
 .about-carousel .item .caption {
   padding: 15px;
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(255, 255, 255, 1);
   width: 100%;
   margin: auto;
   position: absolute;
@@ -1091,3 +1090,86 @@ body.vintage .testimonials .testimonials-carousel .owl-controls .owl-prev,
 body.vintage .testimonials .testimonials-carousel .owl-controls .owl-next {
   line-height: 55px;
 }
+
+.facebook_icon_f {
+  color: #3B5998
+}
+.facebook_icon_back {
+  color: #ffffff;
+}
+
+.facebook_icon_f:hover {
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  /* ...and now for the proper property */
+  transition:.5s;
+  color: #ffffff;
+}
+.facebook_icon_back:hover {
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  /* ...and now for the proper property */
+  transition:.5s;
+  color: #3B5998;
+}
+
+.twitter_icon_f {
+  color: #4099FF;
+}
+.twitter_icon_back {
+  color: #ffffff;
+}
+
+.twitter_icon_f:hover {
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  /* ...and now for the proper property */
+  transition:.5s;
+  color: #ffffff
+}
+.twitter_icon_back:hover {
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  /* ...and now for the proper property */
+  transition:.5s;
+  color: #4099FF;
+}
+
+.blog_icon_f {
+  color: rgb(94, 182, 94);
+}
+.blog_icon_back {
+  color: #ffffff;
+}
+
+.blog_icon_f:hover {
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  /* ...and now for the proper property */
+  transition:.5s;
+  color: #ffffff
+}
+.blog_icon_back:hover {
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  /* ...and now for the proper property */
+  transition:.5s;
+  color:  rgb(94, 182, 94);
+}
+.navbar-expanded {
+  background-color: rgba(0, 0, 0, 0.3);
+
+}
+
