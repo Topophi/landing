@@ -131,12 +131,11 @@ hr.colored {
   border-color: rgba(255, 255, 255, 0.5);
 }
 .navbar-inverse {
-  background-color: #222222;
+  background-color: #224422;
 }
 .navbar-default,
 .navbar-inverse {
   border: none;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 .navbar-default .navbar-brand,
 .navbar-inverse .navbar-brand {
@@ -172,13 +171,13 @@ hr.colored {
     border-radius: 5px;
   }
   .navbar-fixed-top.navbar-expanded {
-    padding: 30px 0;
+    padding: 15px 0;
   }
   .navbar-fixed-top {
     padding: 15px 0;
-    -webkit-transition: padding 0.5s;
-    -moz-transition: padding 0.5s;
-    transition: padding 0.5s;
+    -webkit-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    transition: all 0.8s;
   }
   .navbar-fixed-top .navbar-brand:hover {
     opacity: 0.5;
@@ -1169,7 +1168,6 @@ body.vintage .testimonials .testimonials-carousel .owl-controls .owl-next {
   color:  rgb(94, 182, 94);
 }
 .navbar-expanded {
-  background-color: rgba(0, 0, 0, 0.3);
-
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, -0));
 }
 
