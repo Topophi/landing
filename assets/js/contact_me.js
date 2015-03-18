@@ -52,7 +52,7 @@ $(function() {
                     $('#success').html("<div class='alert alert-danger'>");
                     $('#success > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
                         .append("</button>");
-                    $('#success > .alert-danger').append("<strong>Sorry " + firstName + ", it seems that my mail server is not responding. Please try again later!");
+                    $('#success > .alert-danger').append("<strong>Sorry " + firstName + ", it seems that our message server is not responding. Please email us directly at <a href='mailto:info@topophi.com'>info@topophi.com</a> or try again later!</strong>");
                     $('#success > .alert-danger').append('</div>');
                 },
             })
