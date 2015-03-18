@@ -1103,7 +1103,6 @@ body.vintage .testimonials .testimonials-carousel .owl-controls .owl-next {
   -ms-transition:.5s;
   -moz-transition:.5s;
   -webkit-transition:.5s;
-  /* ...and now for the proper property */
   transition:.5s;
   color: #ffffff;
 }
@@ -1112,7 +1111,6 @@ body.vintage .testimonials .testimonials-carousel .owl-controls .owl-next {
   -ms-transition:.5s;
   -moz-transition:.5s;
   -webkit-transition:.5s;
-  /* ...and now for the proper property */
   transition:.5s;
   color: #3B5998;
 }
@@ -1129,7 +1127,6 @@ body.vintage .testimonials .testimonials-carousel .owl-controls .owl-next {
   -ms-transition:.5s;
   -moz-transition:.5s;
   -webkit-transition:.5s;
-  /* ...and now for the proper property */
   transition:.5s;
   color: #ffffff
 }
@@ -1138,7 +1135,6 @@ body.vintage .testimonials .testimonials-carousel .owl-controls .owl-next {
   -ms-transition:.5s;
   -moz-transition:.5s;
   -webkit-transition:.5s;
-  /* ...and now for the proper property */
   transition:.5s;
   color: #4099FF;
 }
@@ -1155,7 +1151,6 @@ body.vintage .testimonials .testimonials-carousel .owl-controls .owl-next {
   -ms-transition:.5s;
   -moz-transition:.5s;
   -webkit-transition:.5s;
-  /* ...and now for the proper property */
   transition:.5s;
   color: #ffffff
 }
@@ -1164,7 +1159,6 @@ body.vintage .testimonials .testimonials-carousel .owl-controls .owl-next {
   -ms-transition:.5s;
   -moz-transition:.5s;
   -webkit-transition:.5s;
-  /* ...and now for the proper property */
   transition:.5s;
   color:  rgb(94, 182, 94);
 }
