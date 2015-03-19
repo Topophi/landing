@@ -1,6 +1,6 @@
 $(function() {
 
-    var server = "http://localhost:3000/api/emailus"; //TODO: Change
+    var server = "http://prod-web-1759178819.us-west-2.elb.amazonaws.com/api/emailus"; //TODO: Change
 
     $("input,textarea").jqBootstrapValidation({
         preventSubmit: true,
