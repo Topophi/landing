@@ -10,10 +10,12 @@
     // Smooth Scrolling: Smooth scrolls to an ID on the current page.
     // To use this feature, add a link on your page that links to an ID, and add the .page-scroll class to the link itself. See the docs for more details.
     $('a.page-scroll').bind('click', function(event) {
-        var $anchor = $(this);
+        var section = this.getAttribute('href');
         $('html, body').stop().animate({
-            scrollTop: ($($anchor.attr('href')).offset().top - 50)
-        }, 1250, 'easeInOutExpo');
+            scrollTop: ($(section).offset().top)
+        }, 1250, 'easeInOutExpo', function() {
+            window.location.hash = section;
+        });
         event.preventDefault();
     });
 
