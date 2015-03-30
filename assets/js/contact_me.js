@@ -1,6 +1,6 @@
 $(function() {
 
-    var server = "http://prod-web-1759178819.us-west-2.elb.amazonaws.com/api/emailus"; //TODO: Change
+    var server = "https://api.topophi.com/api/emailus";
 
     $("input,textarea").jqBootstrapValidation({
         preventSubmit: true,
