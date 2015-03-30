@@ -1170,3 +1170,8 @@ body.vintage .testimonials .testimonials-carousel .owl-controls .owl-next {
 .background-image {
   background-color: #224422;
 }
+.header-text {
+  font-size:80px;
+  font-weight:800;
+  text-transform: uppercase;
+}
