@@ -2,6 +2,54 @@ $(function() {
 
     var server = "https://api.topophi.com/api/emailus";
 
+    $('#joinMailingList').on('click', function() {
+        var email = $('#mailAddr').val();
+        if(/.+@.+\..+/.test(email)) {
+            $.ajax({
+                url: server,
+                dataType: "jsonp",
+                timeout: 5000,
+                data: {
+                    email: email,
+                    message: "Add me to the mailing list"
+                },
+                cache: false,
+                success: function(success) {
+                    if(success) {
+                        // Success message
+                        $('#mailingListStatus').html("<div class='alert alert-success'>");
+                        $('#mailingListStatus > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
+                            .append("</button>");
+                        $('#mailingListStatus > .alert-success')
+                            .append("<strong>Thank you for your interest. We love you!</strong>");
+                        $('#mailingListStatus > .alert-success')
+                            .append('</div>');
+
+                        //clear fields
+                        $('#mailAddr').val('');
+                    } else {
+                        this.error();
+                    }
+                },
+                error: function() {
+                    // Fail message
+                    $('#mailingListStatus').html("<div class='alert alert-danger'>");
+                    $('#mailingListStatus > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
+                        .append("</button>");
+                    $('#mailingListStatus > .alert-danger').append("<strong>Sorry, it seems that our message server is not responding. Please email us directly at <a href='mailto:info@topophi.com'>info@topophi.com</a> or try again later!</strong>");
+                    $('#mailingListStatus > .alert-danger').append('</div>');
+                },
+            })
+        } else {
+            $('#mailingListStatus').html("<div class='alert alert-danger'>");
+            $('#mailingListStatus > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
+                .append("</button>");
+            $('#mailingListStatus > .alert-danger').append("<strong>Email address is not valid</strong>");
+            $('#mailingListStatus > .alert-danger').append('</div>');
+            $('#mailAddr').focus();
+        }
+    });
+
     $("input,textarea").jqBootstrapValidation({
         preventSubmit: true,
         submitError: function($form, event, errors) {
