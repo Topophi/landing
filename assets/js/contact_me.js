@@ -1,6 +1,6 @@
 $(function() {
 
-    var server = "https://api.topophi.com/api/emailus";
+    var server = "https://awwwwwweyaaaaaa.topophi.com/api/emailus";
 
     $('#joinMailingList').on('click', function() {
         var email = $('#mailAddr').val();
